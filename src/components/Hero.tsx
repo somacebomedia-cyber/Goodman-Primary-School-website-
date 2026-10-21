@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAdmissions, onViewPoster }) =>
       {/* Daylight School Campus & Sky Background (matches official poster) */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_school_daylight_1792580722869.jpg"
+          src="/images/hero_school_daylight_1792580722869.jpg"
           alt="Goodman Primary and Pre School campus under a bright blue sky with light clouds and school building signage in Umzimkhulu"
           className="w-full h-full object-cover object-[center_30%]"
           referrerPolicy="no-referrer"

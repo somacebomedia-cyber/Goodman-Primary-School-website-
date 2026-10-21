@@ -115,7 +115,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onViewPoster, onOpen
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-white group">
               <img
-                src="/src/assets/images/classroom_learning_1792577914320.jpg"
+                src="/images/classroom_learning_1792577914320.jpg"
                 alt="Goodman Primary Learners in Classroom"
                 className="w-full h-80 sm:h-96 object-cover group-hover:scale-104 transition-transform duration-500"
                 referrerPolicy="no-referrer"

@@ -87,7 +87,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-hero-campus',
     title: 'Goodman Primary Campus & Grounds',
     category: 'Campus',
-    image: '/src/assets/images/goodman_campus_grounds_1792581246234.jpg',
+    image: '/images/goodman_campus_grounds_1792581246234.jpg',
     caption: 'Our welcoming, modern red-brick classrooms and landscaped pathways at Goodman Primary & Pre School in Umzimkhulu.',
     tag: 'Campus Grounds'
   },
@@ -95,7 +95,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-classroom-learning',
     title: 'Engaged Learners in the Classroom',
     category: 'Academics',
-    image: '/src/assets/images/classroom_learning_1792577914320.jpg',
+    image: '/images/classroom_learning_1792577914320.jpg',
     caption: 'Learners actively participating in collaborative reading and mathematics sessions.',
     tag: 'Academic Excellence'
   },
@@ -103,7 +103,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-preschool-play',
     title: 'Grade RR & R Early Childhood Center',
     category: 'Early Childhood',
-    image: '/src/assets/images/preschool_activities_1792577915213.jpg',
+    image: '/images/preschool_activities_1792577915213.jpg',
     caption: 'Safe, stimulating environment where our youngest eagles play, explore, and build solid foundations.',
     tag: 'Grade RR - R'
   },
@@ -111,7 +111,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-sports-day',
     title: 'Athletics & Team Spirit',
     category: 'Sports & Culture',
-    image: '/src/assets/images/sports_and_culture_1792577915837.jpg',
+    image: '/images/sports_and_culture_1792577915837.jpg',
     caption: 'Celebrating sportsmanship, vitality, and camaraderie on our open sports field.',
     tag: 'School Spirit'
   },
