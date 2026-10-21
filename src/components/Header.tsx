@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Phone, Calendar, ArrowRight } from 'lucide-react';
+import { Menu, X, ArrowRight } from 'lucide-react';
 import { GoodmanEmblem } from './Emblem.tsx';
 import { SCHOOL_INFO } from '../data/schoolData.ts';
 
@@ -13,33 +13,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAdmissions, onViewPoster }
 
   return (
     <>
-      {/* Top Notification Strip - Clean, unboxed text announcement */}
-      <div className="bg-red-700 text-white text-xs py-2 px-4 border-b border-red-800">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2 text-center md:text-left">
-          <div className="flex items-center gap-2 mx-auto md:mx-0">
-            <span className="font-bold tracking-wide uppercase bg-amber-400 text-slate-950 px-2 py-0.5 rounded text-[11px] font-['Outfit']">
-              Admissions Open 2027
-            </span>
-            <span className="text-red-100 hidden sm:inline">
-              Now enrolling Grade RR through Grade 7 in Umzimkhulu.
-            </span>
-          </div>
-          <div className="flex items-center gap-4 mx-auto md:mx-0 text-red-100 text-[11px] font-medium">
-            <button
-              onClick={onViewPoster}
-              className="hover:text-white underline underline-offset-2 transition-colors cursor-pointer"
-            >
-              View Official Poster
-            </button>
-            <span aria-hidden="true" className="text-red-400">·</span>
-            <a href="tel:0725063258" className="hover:text-white transition-colors flex items-center gap-1">
-              <Phone className="w-3 h-3" />
-              <span>072 506 3258</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Top Bar - Strict 3-zone contract */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-8">
