@@ -1,0 +1,7 @@
+{
+  "name": "Goodman Primary & Pre School",
+  "description": "Official website for Goodman Primary and Pre School in Umzimkhulu. Applications open for 2027 from Grade RR to Grade 7. Quality education for a brighter future.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
